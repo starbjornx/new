@@ -2,13 +2,21 @@ import React from 'react'
 import './Navbar.css'
 function Navbar() {
     return (
-        <div class=" navbar navbar-expand-sm text-white  me-2" style={{ height: "70px" }} >
+        <div class=" navbar navbar-expand-sm-2 text-white " >
 
-            <div class="bg-secondary text-white fixed-top rounded-circle fs-3 ms-2" style={{ width: "60px" }}><a href="https://www.google.com"> <p class="text-white text-decoration-none" style={{ marginLeft: "10px", marginTop: "10px", textDecoration: "none" }}> KH</p>
+            <div class="bg-secondary text-white fixed-top rounded-circle fs-3 ms-2" style={{ width: "60px" }}><a href="https://www.google.com" style={{ textDecoration: "none" }}> <p class="text-white" style={{ marginLeft: "10px", marginTop: "10px" }}> KH</p>
             </a>
             </div>
 
-            <div class="text-danger" style={{ marginLeft: "90px" }}>Kyle Henriksen </div><div class=" text-danger ms-5" >about contact</div>
+            <div class="text-danger fs-3" style={{ marginLeft: "90px" }}>Kyle Henriksen </div>
+
+            {/* Navigation links */}
+            <div>
+                <a href="./about" className="fs-5 mx-2 " style={{ textDecoration: "none" }}>about</a>
+                <div style={{ border: "1px solid gray" }
+                } ></div>
+                <a href="./contact" className="text-primary fs-5" style={{ textDecoration: "none" }}>contact</a>
+            </div>
 
         </div >
     )
