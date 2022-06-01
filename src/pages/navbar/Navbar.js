@@ -4,11 +4,13 @@ function Navbar() {
     return (
         <div class=" navbar navbar-expand-sm-2 text-white " >
 
-            <div class="bg-secondary text-white fixed-top rounded-circle fs-3 ms-2" style={{ width: "60px" }}><a href="https://www.google.com" style={{ textDecoration: "none" }}> <p class="text-white" style={{ marginLeft: "10px", marginTop: "10px" }}> KH</p>
-            </a>
+            <div class="bg-secondary text-white fixed-top rounded-circle fs-3 ms-2" style={{ width: "60px" }}>
+                <a href="https://www.google.com" style={{ textDecoration: "none" }}>
+                    <p class="text-white" style={{ marginLeft: "10px", marginTop: "10px" }}>KH</p>
+                </a>
             </div>
 
-            <div class="text-danger fs-3" style={{ marginLeft: "90px" }}>Kyle Henriksen </div>
+            <div class="fs-3 name" style={{ marginLeft: "90px" }}>Kyle Henriksen </div>
 
             {/* Navigation links */}
             <div>

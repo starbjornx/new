@@ -9,7 +9,17 @@ function Work() {
             <div className="row"><h1 className="projectTitle">Google Book Search API</h1>
                 <img src={booksearch} className="bookimage rounded" alt="" ></img>
                 <div className="col-sm-4 description1">
-                    <p>This is where I will describe the information about the work I have completed to the images on the left side of the screen</p>
+                    <div><h5>Project Details</h5>
+                        <p style={{ color: "gray" }}>https://projectwebsiteaddress.com</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+                        <h5>Services</h5>
+                        <ul>
+                            <li>first list</li>
+                            <li>second list</li>
+                            <li>third list</li>
+                            <li>fourth list</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
@@ -18,7 +28,17 @@ function Work() {
             <div className="row"><h1 className="projectTitle">Name of Project</h1>
                 <img src={booksearch} className="bookimage rounded-5" alt="" ></img>
                 <div className="col-sm-4 description1">
-                    <p>This is where I will describe the information about the work I have completed to the images on the left side of the screen</p>
+                    <div><h5>Project Details</h5>
+                        <p style={{ color: "gray" }}>https://projectwebsiteaddress.com</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+                        <h5>Services</h5>
+                        <ul>
+                            <li>first list</li>
+                            <li>second list</li>
+                            <li>third list</li>
+                            <li>fourth list</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
@@ -27,7 +47,17 @@ function Work() {
             <div className="row"><h1 className="projectTitle">Name of Project</h1>
                 <img src={booksearch} className="bookimage rounded-circle" alt=""></img>
                 <div className="col-sm-4 description1">
-                    <p>This is where I will describe the information about the work I have completed to the images on the left side of the screen</p>
+                    <div><h5>Project Details</h5>
+                        <p style={{ color: "gray" }}>https://projectwebsiteaddress.com</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+                        <h5>Services</h5>
+                        <ul>
+                            <li>first list</li>
+                            <li>second list</li>
+                            <li>third list</li>
+                            <li>fourth list</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 

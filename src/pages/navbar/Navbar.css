@@ -5,3 +5,11 @@
 .shadow:hover {
   box-shadow: 50px 50px 50px green;
 }
+
+.name {
+  color: gray;
+  cursor: pointer;
+}
+.name:hover {
+  color: crimson;
+}
