@@ -10,7 +10,7 @@ import './Homepage.css'
 function Homepage() {
     return (
 
-        <div class="text-center fs-1 bg-light text-secondary">Portfolio</div>
+        <div className="text-center fs-1 bg-light text-secondary">Portfolio</div>
     )
 
 }

@@ -2,21 +2,29 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Homepage from './pages/homepage/Homepage.js'
 import Menu from './pages/navbar/Navbar.js'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Work from './pages/work/work.js'
 import Footer from './pages/footer/footer.js'
-// import About from './pages/about/about.js'
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import About from './pages/about/About.js'
 
 function App() {
   return (
     <>
       <Menu />
-      <div className="">
+      <div>
         <Homepage />
         <Work />
         <Footer />
-        {/* <About />  this needs to be a ROUTE*/}
+
+
       </div>
+
+      {/* <Router>
+
+        <Routes>
+          <Route exact path="/About" element={<About />} />
+        </Routes>
+      </Router> */}
     </>
   );
 }

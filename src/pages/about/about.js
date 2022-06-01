@@ -1,9 +1,9 @@
 import React from 'react'
 
-function about() {
+function About() {
     return (
-        <div>Welcome to the About me page.</div>
+        <h1 className="fs-1 text-primary">Welcome to the About me page.</h1>
     )
 }
 
-export default about
+export default About

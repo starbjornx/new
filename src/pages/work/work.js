@@ -1,23 +1,24 @@
 import React from 'react'
 import booksearch from '../../images/booksearch2.png'
 import './work.css'
+import lasso from '../../images/lasso.png'
+import portfolio from '../../images/portfolio.png'
+import theforce from '../../images/theforce.png'
 function Work() {
     return (
         <div className="container">
 
             {/* First project */}
             <div className="row"><h1 className="projectTitle">Google Book Search API</h1>
-                <img src={booksearch} className="bookimage rounded" alt="" ></img>
+                <a href="https://searchbookapps.herokuapp.com/" target="_blank" style={{ maxWidth: "42%" }}> <img src={booksearch} className="bookimage rounded w-100" alt="" ></img></a>
                 <div className="col-sm-4 description1">
                     <div><h5>Project Details</h5>
-                        <p style={{ color: "gray" }}>https://projectwebsiteaddress.com</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+                        <a href="https://searchbookapps.herokuapp.com/" target="_blank" style={{ textDecoration: "none" }}> <p style={{ color: "gray" }}>https://searchbookapps.herokuapp.com/</p></a>
+                        <p>This is a Google API Book search this was completed as a homework assignment through the Denver University.</p>
                         <h5>Services</h5>
                         <ul>
-                            <li>first list</li>
-                            <li>second list</li>
-                            <li>third list</li>
-                            <li>fourth list</li>
+                            <li>Completed as a Homework Assignment</li>
+
                         </ul>
                     </div>
                 </div>
@@ -25,18 +26,17 @@ function Work() {
 
 
             {/* Second project */}
-            <div className="row"><h1 className="projectTitle">Name of Project</h1>
-                <img src={booksearch} className="bookimage rounded-5" alt="" ></img>
+            <div className="row"><h1 className="projectTitle">AFC Richmond</h1>
+                <a href="https://richmondafc.herokuapp.com/" target="_blank" style={{ maxWidth: "42%" }}>  <img src={lasso} className="bookimage rounded w-100" alt=""></img></a>
                 <div className="col-sm-4 description1">
                     <div><h5>Project Details</h5>
-                        <p style={{ color: "gray" }}>https://projectwebsiteaddress.com</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+                        <a href="https://richmondafc.herokuapp.com/" target="_blank" style={{ textDecoration: "none" }}> <p style={{ color: "gray" }}>https://richmondafc.herokuapp.com/</p></a>
+                        <p>This was a fun project, I was in charge of the styling and I am really glad that it came out the way it did. This project is in my opinion one of my most favorite styling projects I accomplished.</p>
                         <h5>Services</h5>
                         <ul>
-                            <li>first list</li>
-                            <li>second list</li>
-                            <li>third list</li>
-                            <li>fourth list</li>
+                            <li>Complete Stlying done by myself and <a href="https://github.com/jakeeis24">Jake Eissler.</a></li>
+
+
                         </ul>
                     </div>
                 </div>
@@ -44,24 +44,38 @@ function Work() {
 
 
             {/* Third project */}
-            <div className="row"><h1 className="projectTitle">Name of Project</h1>
-                <img src={booksearch} className="bookimage rounded-circle" alt=""></img>
+            <div className="row"><h1 className="projectTitle">Stumble upon the Force!</h1>
+                <a href="https://par92.github.io/group-6/" target="_blank" style={{ maxWidth: "42%" }}>  <img src={theforce} className="bookimage rounded w-100" alt=""></img></a>
                 <div className="col-sm-4 description1">
                     <div><h5>Project Details</h5>
-                        <p style={{ color: "gray" }}>https://projectwebsiteaddress.com</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+                        <a href="https://par92.github.io/group-6/" target="_blank" style={{ textDecoration: "none" }}> <p style={{ color: "gray" }}>https://par92.github.io/group-6/</p></a>
+                        <p>I am a big SCI-Fi fan and who doesn't love Star Wars? Well we actually had someone on our team who never watched Star Wars and knew nothing about it so we decided to create a Star Wars Fan page. I hope you enjoy learning all about Star Wars!</p>
                         <h5>Services</h5>
                         <ul>
-                            <li>first list</li>
-                            <li>second list</li>
-                            <li>third list</li>
-                            <li>fourth list</li>
+                            <li>In charge of Styling</li>
+                            <li>Helped with back-end API</li>
+
                         </ul>
                     </div>
                 </div>
             </div>
 
 
+            <div className="row"><h1 className="projectTitle">Previous Portfolio</h1>
+                <a href="https://main.d1h0v19nwhz1r3.amplifyapp.com/" target="_blank" style={{ maxWidth: "42%" }}><img src={portfolio} className="bookimage rounded w-100" alt=""></img></a>
+                <div className="col-sm-4 description1">
+                    <div><h5>Previous Portfolio</h5>
+                        <a href="https://main.d1h0v19nwhz1r3.amplifyapp.com/" style={{ textDecoration: 'none' }}><p style={{ color: "gray" }}>https://main.d1h0v19nwhz1r3.amplifyapp.com/</p></a>
+                        <p>This is one of my first portfolios I created outside of the Denver University. It has a personal unique style done to it showing off my love for video games.</p>
+                        <h5>Services</h5>
+                        <ul>
+                            <li>Completed work fully functional</li>
+                            <li>Styling</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
             {/* This is the closing of the container*/}
         </div>
 
