@@ -5,7 +5,7 @@ import './Navbar.css'
 
 function Topbar() {
     return (
-        <div className=" navbar navbar-expand-sm-2 text-white " >
+        <div className=" navbar navbar-expand-sm-2 text-white bg-dark" >
 
             <div className="bg-secondary text-white fixed-top rounded-circle fs-3 ms-2" style={{ width: "60px" }}>
                 <a href="/" style={{ textDecoration: "none" }}>

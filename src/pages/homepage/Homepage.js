@@ -10,7 +10,7 @@ import './Homepage.css'
 function Homepage() {
     return (
 
-        <div className="text-center fs-1 bg-light text-secondary">Portfolio</div>
+        <div className="text-center bg-light text-dark" ><h1 style={{ fontSize: "28px", textDecoration: "underline" }}>Kyle's</h1> <h1 style={{ fontSize: "65px" }}>Portfolio</h1></div >
     )
 
 }
