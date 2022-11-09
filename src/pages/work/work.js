@@ -9,15 +9,18 @@ function Work() {
         <div className="container">
 
             {/* First project */}
-            <div className="row"><h1 className="projectTitle">Google Book Search API</h1>
-                <a href="https://searchbookapps.herokuapp.com/" target="_blank" style={{ maxWidth: "42%" }}> <img src={booksearch} className="bookimage rounded w-100" alt="" ></img></a>
+            <div className="row"><h1 className="projectTitle">Elden Market</h1>
+                <a href="https://eldenmarket.herokuapp.com/" target="_blank" style={{ maxWidth: "42%" }}> <img src={booksearch} className="bookimage rounded w-100" alt="" ></img></a>
                 <div className="col-sm-4 description1">
                     <div><h5>Project Details</h5>
-                        <a href="https://searchbookapps.herokuapp.com/" target="_blank" style={{ textDecoration: "none" }}> <p style={{ color: "gray" }}>https://searchbookapps.herokuapp.com/</p></a>
-                        <p>This is a Google API Book search this was completed as a homework assignment through the Denver University.</p>
+                        <a href="https://eldenmarket.herokuapp.com/" target="_blank" style={{ textDecoration: "none" }}> <p style={{ color: "gray" }}>https://searchbookapps.herokuapp.com/</p></a>
+                        <p>This was a fun website, team of 5 members contributed to the overall work. All people associated can be found on my github and reading the readme file. The team had great inputs handling all requirements for our project as a team we each were able to add our own unique look to the project. I was in charge of styling and layout.</p>
                         <h5>Services</h5>
                         <ul>
-                            <li>Completed as a Homework Assignment</li>
+                            <li>API skills</li>
+                            <li>Front-end Layout and Styling design</li>
+                            <li>Login design</li>
+                            <li>Runes page design and functionality</li>
 
                         </ul>
                     </div>

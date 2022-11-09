@@ -1,8 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import { BrowserRouter as Link } from "react-router-dom";
 
-import { Nav } from "react-bootstrap";
 
 
 function Topbar() {
