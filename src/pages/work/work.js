@@ -13,7 +13,7 @@ function Work() {
                 <a href="https://eldenmarket.herokuapp.com/" target="_blank" style={{ maxWidth: "42%" }}> <img src={booksearch} className="bookimage rounded w-100" alt="" ></img></a>
                 <div className="col-sm-4 description1">
                     <div><h5>Project Details</h5>
-                        <a href="https://eldenmarket.herokuapp.com/" target="_blank" style={{ textDecoration: "none" }}> <p style={{ color: "gray" }}>https://searchbookapps.herokuapp.com/</p></a>
+                        <a href="https://eldenmarket.herokuapp.com/" target="_blank" style={{ textDecoration: "none" }}> <p style={{ color: "gray" }}>https://eldenmarket.herokuapp.com/</p></a>
                         <p>This was a fun website, team of 5 members contributed to the overall work. All people associated can be found on my github and reading the readme file. The team had great inputs handling all requirements for our project as a team we each were able to add our own unique look to the project. I was in charge of styling and layout.</p>
                         <h5>Services</h5>
                         <ul>
