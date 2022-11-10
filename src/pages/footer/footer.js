@@ -7,7 +7,7 @@ function Footer() {
 
             <a href="https://www.github.com/starbjornx"><img src={github} style={{ width: "5%", cursor: "pointer" }} alt=""></img></a>
             <a href="https://www.linkedin.com/in/kyle-henriksen-40ba4b228/"><img src={linked} style={{ width: "3%", cursor: "pointer" }} alt=""></img></a>
-
+            Call me right away!
         </div >
     )
 }
